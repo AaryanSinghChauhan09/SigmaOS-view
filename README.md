@@ -1,4 +1,6 @@
-# Omaview
+# SigmaOS Omaview
+
+> Forked from omacom/omaview (MIT). See `SIGMAOS_FORK.md`.
 
 Omarchy's picture viewer and media player, listed in the launcher as Media Viewer. Open a photo, a video or a song, or a whole folder, and look at it: the controls along the bottom and the title across the top, or nothing but the picture once Tab puts them away. Step through a folder with the arrows, zoom with the wheel, and watch the clips between the photos in the same window.
 
