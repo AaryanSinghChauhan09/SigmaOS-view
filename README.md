@@ -1,8 +1,8 @@
 # SigmaOS Omaview
 
-> Forked from omacom/omaview (MIT). See `SIGMAOS_FORK.md`.
+> Forked from SigmaOS/omaview (MIT). See `SIGMAOS_FORK.md`.
 
-Omarchy's picture viewer and media player, listed in the launcher as Media Viewer. Open a photo, a video or a song, or a whole folder, and look at it: the controls along the bottom and the title across the top, or nothing but the picture once Tab puts them away. Step through a folder with the arrows, zoom with the wheel, and watch the clips between the photos in the same window.
+SigmaOS's picture viewer and media player, listed in the launcher as Media Viewer. Open a photo, a video or a song, or a whole folder, and look at it: the controls along the bottom and the title across the top, or nothing but the picture once Tab puts them away. Step through a folder with the arrows, zoom with the wheel, and watch the clips between the photos in the same window.
 
 ![A photo, with its controls](screenshots/picture.jpg)
 
@@ -99,7 +99,7 @@ While a video plays, Omaview keeps the screen from going to sleep. Once a video 
 
 A picture edited in another app while it's shown, in Omasnap say, is shown again as it was saved.
 
-Omaview speaks the language picked under Omarchy's Setup > Language, follows the theme, and mirrors for right-to-left languages.
+Omaview speaks the language picked under SigmaOS's Setup > Language, follows the theme, and mirrors for right-to-left languages.
 
 ## Requirements
 
