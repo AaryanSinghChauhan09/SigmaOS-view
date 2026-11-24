@@ -1,6 +1,6 @@
 [component]
-name = "omaview"
-id = "sigmaos-omaview"
+name = "sigmaos-view"
+id = "sigmaos-view"
 kind = "component"
 license = "GPL-3.0-or-later"
 
