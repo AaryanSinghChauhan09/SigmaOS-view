@@ -24,7 +24,7 @@ const QHash<QString, QColor> &fallbackColors() {
 }
 
 // Older and hand-made themes name some colors differently. Each key takes the
-// first of its other names the theme has, in the order omarchy-theme-color
+// first of its other names the theme has, in the order sigmaos-theme-color
 // (Omarchy's full resolver) tries them.
 const QList<QStringList> &aliases() {
     static const QList<QStringList> aliases{
@@ -45,7 +45,7 @@ double luminance(const QColor &c) {
 
 Theme::Theme(const QString &directory, QObject *parent, const QString &hyprctl, const QString &hyprlandEvents)
     : QObject(parent),
-      m_directory(directory.isEmpty() ? QDir::homePath() + "/.local/state/omarchy/current" : directory) {
+      m_directory(directory.isEmpty() ? QDir::homePath() + "/.local/state/sigmaos/current" : directory) {
     m_debounce.setSingleShot(true);
     m_debounce.setInterval(80);
     connect(&m_watcher, &QFileSystemWatcher::directoryChanged, this, [this] { m_debounce.start(); });
